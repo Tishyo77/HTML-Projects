@@ -1,0 +1,96 @@
+*
+{
+    margin:00px;
+    padding: 00px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+        
+.container
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+    
+.font
+{
+    height: 350px;
+    width: 500px;
+    position: relative;
+    border-radius:10px;
+    background: linear-gradient(rgba(0, 255, 110, 0.477), rgba(214, 255, 208, 0.848)), url("Lion.jpeg");
+    background-size: 500px 375px;
+    background-repeat: no-repeat;
+}
+        
+.institute
+{
+    color:rgb(0, 0, 0);
+    padding: 7px;
+    font-size:25px;
+}
+
+.top img
+{
+    height: 90px;
+    width:90px;
+    background-color:#e6ebe0;
+    border-radius:60px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    object-fit: content;
+    border:3px solid rgba(255 , 255 , 
+    255 , .2);        
+}
+
+.name
+{
+    position: absolute;
+    top: 160px;
+    left: 185px;
+    color:rgb(0, 0, 0);
+    font-size:18px;
+}
+
+.p2
+{
+    position: absolute;
+    top: 20px;
+    left: 8px;
+    color:rgb(0, 0, 0);
+    font-size:18px;
+}
+
+.heading
+{
+    position: absolute;
+    top: 230px;           
+    text-transform:capitalize;
+    font-size: 18px;
+    text-emphasis: spacing;
+    margin-left: 15px;
+}
+
+.details
+{
+    text-align: right;
+    position: absolute;
+    top: 230px;            text-transform:capitalize;
+    font-size: 18px;
+    text-emphasis: spacing;
+    margin-left: 130px;
+    color: rgb(50, 50, 50);
+}
+
+.edetails .Address
+{
+    width: 60%;
+    text-align: justify;
+}
+     
